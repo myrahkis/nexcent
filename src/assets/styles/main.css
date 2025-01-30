@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  /* --Black: #263238; */
+  --D_Grey: #4d4d4d;
+  --Grey: #717171;
+  --L_Grey: #89939e;
+  --Grey-blue: #abbed1;
+  --Silver: #f5f7fa;
+  --White: #ffffff;
+  --Primary: #28cb8b;
+  --Secondary: #263238;
+  --Info: #2194f3;
+  --green-Shade1: #43a046;
+  --green-Shade2: #388e3b;
+  --green-Shade3: #237d31; /* success */
+  --green-Shade4: #1b5e1f;
+  --green-Shade5: #103e13;
+  --Tint1: #66bb69;
+  --Tint2: #81c784;
+  --Tint3: #a5d6a7;
+  --Tint4: #c8e6c9;
+  --Tint5: #e8f5e9;
+  --warning: #fbc02d;
+  --error: #e53835;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 76px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.u-text-center {
+  text-align: center;
+}
+.u-mb-s {
+  margin-bottom: 8px;
+}
+.u-mb-m {
+  margin-bottom: 16px;
+}
+.u-mt-m {
+  margin-top: 16px;
+}
+.u-shadow-s {
+  box-shadow: 0 2px 4px rgba(171, 190, 209, 0.2);
+}
