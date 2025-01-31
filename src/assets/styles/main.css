@@ -53,6 +53,13 @@ h3 {
   font-weight: 600;
 }
 
+.green-empasis {
+  color: var(--Primary);
+}
+.heading-secondary, .heading-tertiary {
+  color: var(--D_Grey);
+}
+
 .u-text-center {
   text-align: center;
 }

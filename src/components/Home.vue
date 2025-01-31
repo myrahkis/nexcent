@@ -12,7 +12,7 @@
     <img src="/img/Illustration.png" alt="" class="illustration" />
   </section>
   <section class="clients-section">
-    <h2 class="heading-secondary">Our Clients</h2>
+    <h2 class="heading-secondary u-mb-s">Our Clients</h2>
     <p class="text u-mb-m">We have been working with some Fortune 500+ clients</p>
     <div class="clints-logos">
       <img src="/img/logos/Logo.png" alt="" class="cl-logo" />
@@ -25,7 +25,7 @@
     </div>
   </section>
   <section class="community-section">
-    <h2 class="heading-secondary u-text-center">
+    <h2 class="heading-secondary u-text-center u-mb-s">
       Manage your entire community <br />
       in a single system
     </h2>
@@ -78,9 +78,6 @@
 .heading {
   color: var(--D_Grey);
 }
-.green-empasis {
-  color: var(--Primary);
-}
 .text {
   color: var(--Grey);
   line-height: 24px;
@@ -111,10 +108,6 @@
   height: 190px;
   margin: 40px 0;
 }
-.heading-secondary {
-  color: var(--D_Grey);
-  margin-bottom: 8px;
-}
 .clints-logos {
   display: flex;
   max-width: 1152px;
@@ -142,9 +135,6 @@
   width: 100%;
   padding: 0 144px;
   justify-content: space-around;
-}
-.heading-tertiary {
-  color: var(--D_Grey);
 }
 .card-text {
   color: var(--Grey);
