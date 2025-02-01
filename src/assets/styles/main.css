@@ -8,7 +8,7 @@
   --Grey-blue: #abbed1;
   --Silver: #f5f7fa;
   --White: #ffffff;
-  --Primary: #28cb8b;
+  --Primary: #4caf4f;
   --Secondary: #263238;
   --Info: #2194f3;
   --green-Shade1: #43a046;
@@ -52,11 +52,17 @@ h3 {
   line-height: 36px;
   font-weight: 600;
 }
+h4 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
 
 .green-empasis {
   color: var(--Primary);
 }
-.heading-secondary, .heading-tertiary {
+.heading-secondary,
+.heading-tertiary {
   color: var(--D_Grey);
 }
 
@@ -68,6 +74,12 @@ h3 {
 }
 .u-mb-m {
   margin-bottom: 16px;
+}
+.u-mb-l {
+  margin-bottom: 32px;
+}
+.u-mt-s {
+  margin-top: 8px;
 }
 .u-mt-m {
   margin-top: 16px;

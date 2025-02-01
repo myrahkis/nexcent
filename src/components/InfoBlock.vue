@@ -31,7 +31,7 @@ const { imgPath, heading, paragraph, btnText } = defineProps({
   padding: 0 144px;
 }
 .info-block {
-  max-width: 657px;
+  max-width: 601px;
 }
 .heading {
   color: var(--D_Grey);
