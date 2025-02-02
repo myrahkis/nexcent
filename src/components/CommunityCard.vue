@@ -39,9 +39,6 @@ const { imgPath, heading, btnText } = defineProps({
   height: 176px;
   border-radius: 8px;
 }
-.heading-quaternary {
-  color: var(--Grey);
-}
 .readmore-btn {
     cursor: pointer;
   color: var(--Primary);

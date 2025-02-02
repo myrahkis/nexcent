@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-  /* --Black: #263238; */
+  --Black: #263238;
   --D_Grey: #4d4d4d;
   --Grey: #717171;
   --L_Grey: #89939e;
@@ -62,7 +62,8 @@ h4 {
   color: var(--Primary);
 }
 .heading-secondary,
-.heading-tertiary {
+.heading-tertiary,
+.heading-quaternary {
   color: var(--D_Grey);
 }
 
