@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import PrimaryBtn from './PrimaryBtn.vue'
+</script>
 
 <template>
   <section class="hero-section">
@@ -7,7 +9,7 @@
         Lessons and insights <span class="green-empasis">from 8 years</span>
       </h1>
       <p class="text">Where to grow your business as a photographer: site or social media?</p>
-      <button class="register-btn">Register</button>
+      <PrimaryBtn btnText="Register" />
     </div>
     <img src="/img/Illustration.png" alt="" class="illustration" />
   </section>
@@ -31,17 +33,6 @@
 }
 .text {
   color: var(--Grey);
-  line-height: 24px;
-  font-size: 16px;
-}
-.register-btn {
-  background-color: var(--Primary);
-  color: var(--White);
-  border: none;
-  border-radius: 4px;
-  padding: 14px 32px;
-  margin-top: 32px;
-  font-weight: 500;
   line-height: 24px;
   font-size: 16px;
 }

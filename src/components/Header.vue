@@ -1,21 +1,23 @@
 <script setup>
 import Logo from '@/ui/Logo.vue'
+import PrimaryBtnMedium from '@/components/PrimaryBtnMedium.vue'
+import TertiaryBtnMedium from '@/components/TertiaryBtnMedium.vue'
 </script>
 
 <template>
   <header class="header">
     <Logo />
     <ul class="heading-names">
-      <li>Home</li>
-      <li>Services</li>
-      <li>Feature</li>
-      <li>Product</li>
-      <li>Testimonial</li>
-      <li>FAQ</li>
+      <li class="link">Home</li>
+      <li class="link">Services</li>
+      <li class="link">Feature</li>
+      <li class="link">Product</li>
+      <li class="link">Testimonial</li>
+      <li class="link">FAQ</li>
     </ul>
     <div class="btns">
-      <button class="login-btn">Login</button>
-      <button class="signup-btn">Sign up</button>
+      <TertiaryBtnMedium btnText="Login" />
+      <PrimaryBtnMedium btnText="Sign up" />
     </div>
   </header>
 </template>
@@ -40,32 +42,9 @@ import Logo from '@/ui/Logo.vue'
   font-size: 16px;
   gap: 45px;
   font-weight: 400;
-
-  li {
-    cursor: pointer;
-  }
 }
 .btns {
   display: flex;
   gap: 14px;
-}
-.login-btn {
-  padding: 10px 20px;
-  color: var(--Primary);
-  background-color: var(--Silver);
-  border: none;
-  line-height: 20px;
-  font-size: 14px;
-  font-weight: 500;
-}
-.signup-btn {
-  padding: 10px 20px;
-  border-radius: 6px;
-  border: none;
-  color: var(--White);
-  background-color: var(--Primary);
-  line-height: 20px;
-  font-size: 14px;
-  font-weight: 500;
 }
 </style>

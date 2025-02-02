@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import TertiaryBtnArrow from './TertiaryBtnArrow.vue'
+</script>
 
 <template>
   <section class="customers-section">
@@ -24,7 +26,7 @@
           <img src="/img/logos/Logo-4.png" alt="" />
           <img src="/img/logos/Logo-5.png" alt="" />
           <img src="/img/logos/Logo-6.png" alt="" />
-          <button class="customers-btn">Meet all customers</button>
+          <TertiaryBtnArrow btnText="Meet all customers" />
         </div>
       </div>
     </div>

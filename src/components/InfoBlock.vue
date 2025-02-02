@@ -1,4 +1,6 @@
 <script setup>
+import PrimaryBtn from './PrimaryBtn.vue'
+
 const { imgPath, heading, paragraph, btnText } = defineProps({
   imgPath: String,
   heading: String,
@@ -15,7 +17,8 @@ const { imgPath, heading, paragraph, btnText } = defineProps({
       <p class="text">
         {{ paragraph }}
       </p>
-      <button class="learn-more-btn">{{ btnText }}</button>
+      <PrimaryBtn :btnText="btnText" />
+      <!-- <button class="learn-more-btn">{{  }}</button> -->
     </div>
   </section>
 </template>

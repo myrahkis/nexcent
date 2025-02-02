@@ -91,3 +91,58 @@ h4 {
 .u-shadow-m {
   box-shadow: 0 8px 16px rgba(171, 190, 209, 0.4);
 }
+
+.link {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+
+  &:hover {
+    border-bottom: 1px solid var(--Primary);
+  }
+  &:focus {
+    outline: 1px solid #89939e;
+  }
+  &:active {
+    color: var(--green-Shade2);
+    border-bottom: 1px solid var(--green-Shade2);
+  }
+  &:disabled {
+    color: var(--Grey-blue);
+  }
+}
+
+button {
+  &:disabled {
+    cursor: not-allowed;
+    background-color: var(--Silver);
+    color: var(--Grey-blue);
+  }
+}
+
+.btn-primary-base {
+  transition: background-color 0.2s;
+  border-radius: 4px;
+
+  &:focus {
+    outline: 2px solid var(--D_Grey);
+  }
+  &:active {
+    background-color: var(--green-Shade2);
+  }
+}
+
+.btn-tertiary-base {
+  transition: background-color 0.2s;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: var(--Silver);
+  }
+  &:focus {
+    outline: 2px solid var(--D_Grey);
+  }
+  &:active {
+    background-color: #e8f5e9;
+    color: var(--Primary);
+  }
+}

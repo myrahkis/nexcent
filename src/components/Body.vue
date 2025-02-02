@@ -1,6 +1,6 @@
 <script setup>
-import AchievementsSection from './AchievementsSection.vue'
-import CommunityUpdSection from './CommunityUpdSection.vue'
+import AchievementsSection from './achievements/AchievementsSection.vue'
+import CommunityUpdSection from './communityUpds/CommunityUpdSection.vue';
 import CustomersSection from './CustomersSection.vue'
 import InfoBlock from './InfoBlock.vue'
 </script>
