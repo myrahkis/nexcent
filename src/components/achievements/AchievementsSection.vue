@@ -16,10 +16,10 @@ import AchievementStat from './AchievementStat.vue';
       <p class="paragraph-text">We reached here with our hard work and dedication</p>
     </div>
     <div class="stats-block">
-      <AchievementStat imgPath="/img/stats-icon.png" stat="2,245,341" name="Members" />
-      <AchievementStat imgPath="/img/stats-icon2.png" stat="46,328" name="Clubs" />
-      <AchievementStat imgPath="/img/stats-icon3.png" stat="828,867" name="Event Bookings" />
-      <AchievementStat imgPath="/img/stats-icon4.png" stat="1,926,436" name="Payments" />
+      <AchievementStat imgPath="img/stats-icon.png" stat="2,245,341" name="Members" />
+      <AchievementStat imgPath="img/stats-icon2.png" stat="46,328" name="Clubs" />
+      <AchievementStat imgPath="img/stats-icon3.png" stat="828,867" name="Event Bookings" />
+      <AchievementStat imgPath="img/stats-icon4.png" stat="1,926,436" name="Payments" />
     </div>
   </section>
 </template>

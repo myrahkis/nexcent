@@ -12,17 +12,17 @@ import CommunityUpdCard from './CommunityUpdCard.vue'
     </p>
     <div class="community-cards">
       <CommunityUpdCard
-        imgPath="/img/comImg1.png"
+        imgPath="img/comImg1.png"
         heading="Creating Streamlined Safeguarding Processes with OneRen"
         btnText="Read more"
       />
       <CommunityUpdCard
-        imgPath="/img/comImg2.png"
+        imgPath="img/comImg2.png"
         heading="What are your safeguarding responsibilities and how can you manage them?"
         btnText="Read more"
       />
       <CommunityUpdCard
-        imgPath="/img/comImg3.png"
+        imgPath="img/comImg3.png"
         heading="Revamping the Membership Model with Triathlon Australia"
         btnText="Read more"
       />

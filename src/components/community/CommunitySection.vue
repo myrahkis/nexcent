@@ -11,19 +11,19 @@ import CommunityCard from './CommunityCard.vue'
     <p class="text">Who is Nextcent suitable for?</p>
     <div class="for-who-group u-mt-m">
       <CommunityCard
-        imgPath="/img/com-icon.png"
+        imgPath="img/com-icon.png"
         heading="Membership Organisations"
         text="Our membership management software provides full automation of membership renewals and
               payments"
       />
       <CommunityCard
-        imgPath="/img/com-icon2.png"
+        imgPath="img/com-icon2.png"
         heading="National Associations"
         text="Our membership management software provides full automation of membership renewals and
           payments"
       />
       <CommunityCard
-        imgPath="/img/com-icon3.png"
+        imgPath="img/com-icon3.png"
         heading="Clubs And <br /> Groups"
         text="Our membership management software provides full automation of membership renewals and
           payments"

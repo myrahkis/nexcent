@@ -7,11 +7,13 @@ const { imgPath, heading, paragraph, btnText } = defineProps({
   paragraph: String,
   btnText: String,
 })
+
+const fullImgPath = `${import.meta.env.BASE_URL}${imgPath}`
 </script>
 
 <template>
   <section class="section">
-    <img :src="imgPath" alt="" class="illustration" />
+    <img :src="fullImgPath" alt="" class="illustration" />
     <div class="info-block">
       <h2 class="heading u-mb-m">{{ heading }}</h2>
       <p class="text">

@@ -4,11 +4,13 @@ const { imgPath, heading, text } = defineProps({
   heading: String,
   text: String,
 })
+
+const fullImgPath = `${import.meta.env.BASE_URL}${imgPath}`
 </script>
 
 <template>
   <div class="community-card u-shadow-s">
-    <img :src="imgPath" alt="" class="card-icon u-mb-m" />
+    <img :src="fullImgPath" alt="" class="card-icon u-mb-m" />
     <h3 class="heading-tertiary u-mb-s u-text-center" v-html="heading"></h3>
     <p class="card-text u-text-center">{{ text }}</p>
   </div>
