@@ -45,6 +45,7 @@ const { imgPath, heading, paragraph, btnText } = defineProps({
   font-size: 14px;
 }
 .learn-more-btn {
+  cursor: pointer;
   background-color: var(--Primary);
   color: var(--White);
   border: none;

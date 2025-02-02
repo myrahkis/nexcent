@@ -1,15 +1,8 @@
 <script setup>
-import Logo from '@/ui/Logo.vue'
+import FooterLinks from './FooterLinks.vue'
 </script>
 
 <template>
-  <section class="get-demo-section">
-    <h1 class="heading u-text-center">
-      Pellentesque suscipit <br />
-      fringilla libero eu.
-    </h1>
-    <button class="demo-btn">Get a Demo</button>
-  </section>
   <footer class="footer">
     <div class="company-info">
       <img src="/img/logo-white.png" alt="" />
@@ -25,26 +18,14 @@ import Logo from '@/ui/Logo.vue'
       </div>
     </div>
     <div class="links">
-      <div class="company">
-        <h4 class="links-heading">Company</h4>
-        <ul class="links-list">
-          <li>About us</li>
-          <li>Blog</li>
-          <li>Contact us</li>
-          <li>Pricing</li>
-          <li>Testimonials</li>
-        </ul>
-      </div>
-      <div class="support">
-        <h4 class="links-heading">Support</h4>
-        <ul class="links-list">
-          <li>Help center</li>
-          <li>Terms of service</li>
-          <li>Legal</li>
-          <li>Privacy policy</li>
-          <li>Status</li>
-        </ul>
-      </div>
+      <FooterLinks
+        heading="Company"
+        :links="['About us', 'Blog', 'Contact us', 'Pricing', 'Testimonials']"
+      />
+      <FooterLinks
+        heading="Support"
+        :links="['Help center', 'Terms of service', 'Legal', 'Privacy policy', 'Status']"
+      />
       <div class="reach">
         <h4 class="links-heading">Stay up to date</h4>
         <div class="input-container">
@@ -59,32 +40,6 @@ import Logo from '@/ui/Logo.vue'
 </template>
 
 <style scoped>
-.get-demo-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-  background-color: var(--Silver);
-  color: var(--Black);
-  gap: 32px;
-}
-.heading {
-  width: 887px;
-}
-.demo-btn {
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-  background-color: var(--Primary);
-  padding: 14px 32px;
-  color: var(--White);
-}
-.demo-btn::after {
-  content: '→';
-  margin-left: 8px;
-}
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -108,21 +63,6 @@ import Logo from '@/ui/Logo.vue'
   display: grid;
   grid-template-columns: repeat(2, 160px) 255px;
   column-gap: 30px;
-}
-.links-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-top: 24px;
-  color: var(--White);
-  list-style: none;
-
-  li {
-    cursor: pointer;
-    font-weight: 400;
-    line-height: 20px;
-    font-size: 14px;
-  }
 }
 .links-heading {
   color: var(--White);
